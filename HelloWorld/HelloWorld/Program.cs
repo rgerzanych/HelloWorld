@@ -19,7 +19,7 @@ namespace HelloWorld
 
                 if (!text.ToLower().Equals("exit"))
                 {
-                    Console.Write("Test");
+                    Console.Write("Test in branch");
                     DefaultText(ref text);
 
                     Console.ForegroundColor = ConsoleColor.Red;
