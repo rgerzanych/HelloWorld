@@ -21,6 +21,7 @@ namespace HelloWorld
                 {
                     Console.Write("Test in branch");
                     DefaultText(ref text);
+                    Console.Write("");
 
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"string was entered by the user without changes: {text}");
